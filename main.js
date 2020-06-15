@@ -13,8 +13,8 @@ kata1.append('Kata 1')
 let counter = 0
 while (counter < 20) {
     counter += 1
-    
-    let newElement= document.createElement('div')
+
+    let newElement = document.createElement('div')
     newElement.append(counter)
     mainElement.append(newElement)
 }
@@ -35,11 +35,11 @@ kata2.append('Kata 2')
 
 counter2 = 0
 while (counter2 < 20) {
-    
-    counter2 = counter2 + 2
-  
 
-    let newElement2= document.createElement('div')
+    counter2 = counter2 + 2
+
+
+    let newElement2 = document.createElement('div')
     newElement2.append(counter2)
     mainElement.append(newElement2)
 }
@@ -59,7 +59,7 @@ while (counter3 < 19) {
     console.log(counter3)
     counter3 = counter3 + 2
 
-    let newElement3= document.createElement('div')
+    let newElement3 = document.createElement('div')
     newElement3.append(counter3)
     mainElement.append(newElement3)
 }
@@ -83,7 +83,7 @@ while (counter4 <= 100) {
     console.log(counter4)
     counter4 += 5
 
-    let newElement4= document.createElement('div')
+    let newElement4 = document.createElement('div')
     newElement4.append(counter4)
     mainElement.append(newElement4)
 }
@@ -103,10 +103,10 @@ let counter5 = 1
 while (counter5 <= 100) {
     const isSquare = Number.isInteger(Math.sqrt(counter5))
     if (isSquare) {
-        
+
         let newElement5 = document.createElement('div')
-        newElement5 .append(counter5 )
-        mainElement.append(newElement5 )
+        newElement5.append(counter5)
+        mainElement.append(newElement5)
     }
     counter5 += (1)
 
@@ -124,12 +124,12 @@ let kata6 = document.createElement('h1')
 mainElement.append(kata6)
 kata6.append('Kata6')
 
-for (let counter6 = 20; counter6 >= 1; counter6 -= 1){
+for (let counter6 = 20; counter6 >= 1; counter6 -= 1) {
     console.log(counter6)
-        
+
     let newElement6 = document.createElement('div')
-        newElement6 .append(counter6 )
-        mainElement.append(newElement6 )
+    newElement6.append(counter6)
+    mainElement.append(newElement6)
 }
 
 
@@ -150,8 +150,8 @@ while (counter7 > 2) {
     console.log(counter7)
     counter7 -= 2
     let newElement7 = document.createElement('div')
-        newElement7 .append(counter7 )
-        mainElement.append(newElement7 )
+    newElement7.append(counter7)
+    mainElement.append(newElement7)
 }
 
 
@@ -174,8 +174,8 @@ while (counter8 > 1) {
     console.log(counter8)
     counter8 -= 2
     let newElement8 = document.createElement('div')
-        newElement8 .append(counter8 )
-        mainElement.append(newElement8 )
+    newElement8.append(counter8)
+    mainElement.append(newElement8)
 }
 
 
@@ -199,8 +199,8 @@ while (counter9 > 0) {
     counter9 -= 5
 
     let newElement9 = document.createElement('div')
-        newElement9 .append(counter9 )
-        mainElement.append(newElement9 )
+    newElement9.append(counter9)
+    mainElement.append(newElement9)
 }
 
 
@@ -224,10 +224,10 @@ let counter10 = 100
 while (counter10 >= 0) {
     const isSquare = Number.isInteger(Math.sqrt(counter10))
     if (isSquare) {
-       
-    let newElement10 = document.createElement('div')
-    newElement10 .append(counter10 )
-    mainElement.append(newElement10 )
+
+        let newElement10 = document.createElement('div')
+        newElement10.append(counter10)
+        mainElement.append(newElement10)
     }
     counter10 -= (1)
 }
@@ -272,37 +272,42 @@ for (let index = 0; index < sampleArray2.length; index++) {
 let kata14 = document.createElement('h1')
 mainElement.append(kata14)
 kata14.append('Kata 14')
-const sampleArray4 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-for (let index = 0; index < sampleArray4.length; index++) {
-    square = Math.sqrt(sampleArray4[index])
-    let newElement4 = document.createElement('div')
-    newElement4.append(square)
-    mainElement.append(newElement4)
+const sampleArray14 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+for (let index = 0; index < sampleArray14.length; index++) {
+    square = Math.sqrt(sampleArray14[index])
+    let newElement14 = document.createElement('div')
+    newElement14.append(square)
+    mainElement.append(newElement14)
 
 }
 //Kata 15
 let kata15 = document.createElement('h1')
 mainElement.append(kata15)
 kata15.append('Kata 15')
-for(let index = 0; index <= 20; index ++){
-    let newElement5 = document.createElement('div')
-    newElement5.append(index)
-    mainElement.append(newElement5)
+let sum1 = 0
+
+for (let index = 0; index <= 20; index += 1) {
+    sum1 = sum1 + index
+
 }
+let newElement15 = document.createElement('div')
+newElement15.append(sum1)
+mainElement.append(newElement15)
 //kata 16
 let kata16 = document.createElement('h1')
 mainElement.append(kata16)
 kata16.append('Kata 16')
+
 let sum = 0
 
 const sampleArray16 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
-for (let index = 0; index < sampleArray16.length; index+= 1) {
+for (let index = 0; index < sampleArray16.length; index += 1) {
     sum += sampleArray16[index]
 }
 let newElement16 = document.createElement('div')
 newElement16.append(sum)
 mainElement.append(newElement16)
-    
+
 
 
 //kata 17
@@ -312,11 +317,11 @@ kata17.append('Kata 17')
 
 const sampleArray17 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 let smallest = Math.min(...sampleArray17)
-   
-    
-    let newElement17 = document.createElement('div')
-    newElement17.append(smallest)
-    mainElement.append(newElement17)
+
+
+let newElement17 = document.createElement('div')
+newElement17.append(smallest)
+mainElement.append(newElement17)
 
 //Kata18
 let kata18 = document.createElement('h1')
@@ -325,9 +330,8 @@ kata18.append('kata18')
 
 const sampleArray18 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 let largest = Math.max(...sampleArray18)
-   
-    
+
+
 let newElement18 = document.createElement('div')
 newElement18.append(largest)
 mainElement.append(newElement18)
-
