@@ -7,16 +7,17 @@
 mainElement = document.querySelector('main')
 
 console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-let kata1 = document.createElement('div')
+let kata1 = document.createElement('h1')
 mainElement.append(kata1)
 kata1.append('Kata 1')
 let counter = 0
 while (counter < 20) {
-    console.log(counter)
     counter += 1
-    mainElement.append(counter)
+    
+    let newElement= document.createElement('div')
+    newElement.append(counter)
+    mainElement.append(newElement)
 }
-
 
 
 
@@ -28,15 +29,19 @@ while (counter < 20) {
 
 console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
 
-let kata2 = document.createElement('div')
+let kata2 = document.createElement('h1')
 mainElement.append(kata2)
 kata2.append('Kata 2')
 
-counter2 = 2
-while (counter2 <= 20) {
-    console.log(counter2)
+counter2 = 0
+while (counter2 < 20) {
+    
     counter2 = counter2 + 2
-    mainElement.append(counter2)
+  
+
+    let newElement2= document.createElement('div')
+    newElement2.append(counter2)
+    mainElement.append(newElement2)
 }
 
 /** KATA 03 ⮕2
@@ -46,14 +51,17 @@ while (counter2 <= 20) {
  ***/
 
 console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-let kata3 = document.createElement('div')
+let kata3 = document.createElement('h1')
 mainElement.append(kata3)
 kata3.append('Kata 3')
 counter3 = 1
-while (counter3 <= 20) {
+while (counter3 < 19) {
     console.log(counter3)
     counter3 = counter3 + 2
-    mainElement.append(counter3)
+
+    let newElement3= document.createElement('div')
+    newElement3.append(counter3)
+    mainElement.append(newElement3)
 }
 
 
@@ -65,13 +73,19 @@ while (counter3 <= 20) {
  ***/
 
 console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
+let kata4 = document.createElement('h1')
+mainElement.append(kata4)
+kata4.append('Kata4')
 
 
 let counter4 = 0
 while (counter4 <= 100) {
     console.log(counter4)
     counter4 += 5
+
+    let newElement4= document.createElement('div')
+    newElement4.append(counter4)
+    mainElement.append(newElement4)
 }
 
 
@@ -80,15 +94,22 @@ while (counter4 <= 100) {
  *** Log all numbers up to 100 that are perfect squares. (1, 4, 9, ..., 81, 100)
  ***
  ***/
-
 console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let kata5 = document.createElement('h1')
+mainElement.append(kata5)
+kata5.append('Kata5')
+
 let counter5 = 1
 while (counter5 <= 100) {
     const isSquare = Number.isInteger(Math.sqrt(counter5))
     if (isSquare) {
-        console.log(counter5)
+        
+        let newElement5 = document.createElement('div')
+        newElement5 .append(counter5 )
+        mainElement.append(newElement5 )
     }
     counter5 += (1)
+
 }
 
 
@@ -99,13 +120,17 @@ while (counter5 <= 100) {
  *** Log the numbers counting backwards from 20 to 1. (20, 19, 18, ..., 2, 1)
  ***
  ***/
+let kata6 = document.createElement('h1')
+mainElement.append(kata6)
+kata6.append('Kata6')
 
-console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-
-
-for (let counter6 = 20; counter6 >= 1; counter6 -= 1)
+for (let counter6 = 20; counter6 >= 1; counter6 -= 1){
     console.log(counter6)
-
+        
+    let newElement6 = document.createElement('div')
+        newElement6 .append(counter6 )
+        mainElement.append(newElement6 )
+}
 
 
 
@@ -116,11 +141,17 @@ for (let counter6 = 20; counter6 >= 1; counter6 -= 1)
  ***/
 
 console.log('%cKATA 07 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let kata7 = document.createElement('h1')
+mainElement.append(kata7)
+kata7.append('Kata7')
 
-let counter7 = 20
-while (counter7 > 0) {
+let counter7 = 22
+while (counter7 > 2) {
     console.log(counter7)
     counter7 -= 2
+    let newElement7 = document.createElement('div')
+        newElement7 .append(counter7 )
+        mainElement.append(newElement7 )
 }
 
 
@@ -132,14 +163,19 @@ while (counter7 > 0) {
  ***/
 
 console.log('%cKATA 08 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let kata8 = document.createElement('h1')
+mainElement.append(kata8)
+kata8.append('Kata8')
 
-let counter8 = 20
-while (counter8 > 19) {
-    counter8 -= 1
-}
-while (counter8 > 0) {
+
+let counter8 = 21
+
+while (counter8 > 1) {
     console.log(counter8)
     counter8 -= 2
+    let newElement8 = document.createElement('div')
+        newElement8 .append(counter8 )
+        mainElement.append(newElement8 )
 }
 
 
@@ -151,10 +187,20 @@ while (counter8 > 0) {
  ***/
 
 console.log('%cKATA 09 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+
+let kata9 = document.createElement('h1')
+mainElement.append(kata9)
+kata9.append('Kata9')
+
+
 let counter9 = 100
 while (counter9 > 0) {
     console.log(counter9)
     counter9 -= 5
+
+    let newElement9 = document.createElement('div')
+        newElement9 .append(counter9 )
+        mainElement.append(newElement9 )
 }
 
 
@@ -170,12 +216,18 @@ while (counter9 > 0) {
 console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
 
-/* Write your KATA 10 code in place of THIS comment. */
+let kata10 = document.createElement('h1')
+mainElement.append(kata10)
+kata10.append('Kata10')
+
 let counter10 = 100
 while (counter10 >= 0) {
     const isSquare = Number.isInteger(Math.sqrt(counter10))
     if (isSquare) {
-        console.log(counter10)
+       
+    let newElement10 = document.createElement('div')
+    newElement10 .append(counter10 )
+    mainElement.append(newElement10 )
     }
     counter10 -= (1)
 }
@@ -241,12 +293,41 @@ for(let index = 0; index <= 20; index ++){
 let kata16 = document.createElement('h1')
 mainElement.append(kata16)
 kata16.append('Kata 16')
-const sampleArray6 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 let sum = 0
-for (let index = 0; index < sampleArray6.length; index++) {
-   let newSum = sum += sampleArray6[index]
-    let newElement6 = document.createElement('div')
-    newElement6.append(newSum)
-    mainElement.append(newElement6)
-     
+
+const sampleArray16 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+for (let index = 0; index < sampleArray16.length; index+= 1) {
+    sum += sampleArray16[index]
 }
+let newElement16 = document.createElement('div')
+newElement16.append(sum)
+mainElement.append(newElement16)
+    
+
+
+//kata 17
+let kata17 = document.createElement('h1')
+mainElement.append(kata17)
+kata17.append('Kata 17')
+
+const sampleArray17 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+let smallest = Math.min(...sampleArray17)
+   
+    
+    let newElement17 = document.createElement('div')
+    newElement17.append(smallest)
+    mainElement.append(newElement17)
+
+//Kata18
+let kata18 = document.createElement('h1')
+mainElement.append(kata18)
+kata18.append('kata18')
+
+const sampleArray18 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
+let largest = Math.max(...sampleArray18)
+   
+    
+let newElement18 = document.createElement('div')
+newElement18.append(largest)
+mainElement.append(newElement18)
+
