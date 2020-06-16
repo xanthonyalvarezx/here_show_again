@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: darkseagreen;
+}
+
+
+    
+    
+
+
+main{display: flex;
+    flex-direction: row;
+    
+    height: 2000px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(108, 129, 108, 0.882);
+   
+  color: rgb(246, 207, 90);
+  font-size: 13px;
+
+    
+    
+    
+}
+
+.box{
+ width: 100px;
+ height: 20px;
+ background-color: gray;
+ margin: 10px;
+ 
+ 
+}
+#squares{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    height: 100px;
+    
+    
+ 
+}
+
+h1{
+    font-size: 27px;
+}
