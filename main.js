@@ -1,9 +1,8 @@
-/** KATA 01 ⮕
- ***
- *** Log the numbers from 1 to 20. (1, 2, 3,..., 19, 20)
- ***
- **/
 // Code produced with - Elisua Hernandez and Tea Mitchell
+
+
+//kata1
+
 mainElement = document.querySelector('main')
 
 console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
@@ -21,12 +20,8 @@ while (counter < 20) {
 
 
 
-/** KATA 02 ⮕
- ***
- *** Log the even numbers from 1 to 20. (2, 4, 6,...18,20)
- ***
- ***/
 
+//kata2
 console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
 
 let kata2 = document.createElement('h1')
@@ -44,11 +39,7 @@ while (counter2 < 20) {
     mainElement.append(newElement2)
 }
 
-/** KATA 03 ⮕2
- ***
- *** Log the odd numbers from 1 to 20. (1, 3, 5,...,17,19)
- ***
- ***/
+//kata3
 
 console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 let kata3 = document.createElement('h1')
@@ -65,12 +56,7 @@ while (counter3 < 19) {
 }
 
 
-
-/** KATA 04 ⮕
- ***
- *** Log the multiples of 5 up to 100. (5, 10, 15, ..., 95, 100)
- ***
- ***/
+//kata4
 
 console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 let kata4 = document.createElement('h1')
@@ -89,11 +75,7 @@ while (counter4 <= 100) {
 }
 
 
-/** KATA 05 ⮕
- ***
- *** Log all numbers up to 100 that are perfect squares. (1, 4, 9, ..., 81, 100)
- ***
- ***/
+//kata5
 console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 let kata5 = document.createElement('h1')
 mainElement.append(kata5)
@@ -115,11 +97,8 @@ while (counter5 <= 100) {
 
 
 
-/** KATA 06 ⮕
- ***
- *** Log the numbers counting backwards from 20 to 1. (20, 19, 18, ..., 2, 1)
- ***
- ***/
+// KATA 06 
+
 let kata6 = document.createElement('h1')
 mainElement.append(kata6)
 kata6.append('Kata6')
@@ -134,11 +113,8 @@ for (let counter6 = 20; counter6 >= 1; counter6 -= 1) {
 
 
 
-/** KATA 07 ⮕
- ***
- *** Log the even numbers counting backwards from 20. (20, 18, 16, ..., 4, 2)
- ***
- ***/
+// KATA 07 
+
 
 console.log('%cKATA 07 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 let kata7 = document.createElement('h1')
@@ -156,11 +132,7 @@ while (counter7 > 2) {
 
 
 
-/** KATA 08 ⮕
- ***
- *** Log the odd numbers from 20 to 1, counting backwards. (19, 17, 15, ..., 3, 1)
- ***
- ***/
+//kata8
 
 console.log('%cKATA 08 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 let kata8 = document.createElement('h1')
@@ -180,11 +152,7 @@ while (counter8 > 1) {
 
 
 
-/** KATA 09 ⮕
- ***
- *** Log the multiples of 5, counting down from 100. (100, 95, 90, ..., 10, 5)
- ***
- ***/
+//kata9
 
 console.log('%cKATA 09 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
@@ -207,11 +175,7 @@ while (counter9 > 0) {
 
 
 
-/** KATA 10 ⮕
- ***
- *** Log the numbers that are perfect squares, counting down from 100. (100, 81, 64, ..., 4, 1)
- ***
- ***/
+// kata10
 
 console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
