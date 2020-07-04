@@ -238,7 +238,7 @@ mainElement.append(kata14)
 kata14.append('Kata 14')
 const sampleArray14 = [469, 755, 244, 245, 758, 450, 302, 20, 712, 71, 456, 21, 398, 339, 882, 848, 179, 535, 940, 472];
 for (let index = 0; index < sampleArray14.length; index++) {
-    square = Math.sqrt(sampleArray14[index])
+    square = sampleArray14[index] * sampleArray14[index]
     let newElement14 = document.createElement('div')
     newElement14.append(square)
     mainElement.append(newElement14)
